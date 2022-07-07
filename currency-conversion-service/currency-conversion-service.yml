@@ -1,8 +1,4 @@
-currency-exchange-service:
-  ribbon:
-    listOfServers: localhost:8000,localhost:8001
-
-ribbon:
-  eager-load:
-    enabled: true
-    clients: currency-exchange-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
