@@ -1,5 +1,5 @@
 limits-service:
- minimum: 1900
+ minimum: 1000
  maximum: 2000
 
 eureka:
